@@ -1,0 +1,73 @@
+$schema: https://learning-contents.org/schemas/free-coding/0.1.0
+source: main.py
+license: MIT
+locale: en-US
+id: 03-11__conditional-execution__exercises01
+title: "Overtime Pay Computation"
+description: "Rewrite pay computation to give employee 1.5 times the hourly rate for hours above 40."
+authors:
+  - first: PY4E
+    last: Exercise
+    email: info@py4e.com
+    affiliation: Python for Everybody
+pedagogy:
+  activity: free-coding
+  difficulty: intermediate
+  prereq_topics: ["variables", "expressions"]
+  topics: ["conditionals", "if-else", "expressions"]
+runtime:
+  language: python
+  version: 3
+statement: |-
+  Rewrite your pay computation to give the employee 1.5 times the hourly rate for hours worked above 40 hours.
+executions:
+  - title: Execution 1
+    stdin:
+      - "45"
+      - "10"
+    stdout: |-
+      Enter Hours: Enter Rate: Pay: 475.0
+    console: |-
+      Pay: 475.0
+    status: pass
+  - title: Execution 2
+    stdin:
+      - "30"
+      - "10"
+    stdout: |-
+      Enter Hours: Enter Rate: Pay: 300.0
+    console: |-
+      Pay: 300.0
+    status: pass
+elements:
+  - type: editable
+    location:
+      snippet: |-
+        hours = float(input("Enter Hours: "))
+        rate = float(input("Enter Rate: "))
+        if hours > 40:
+            pay = 40 * rate + (hours - 40) * rate * 1.5
+        else:
+            pay = hours * rate
+        print("Pay:", pay)
+    placeholder: |-
+      # Calculate gross pay with 1.5x rate for hours > 40
+testcases:
+  - title: Testcase 1
+    visible: true
+    stdin:
+      - "45"
+      - "10"
+    stdout: |-
+      Enter Hours: Enter Rate: Pay: 475.0
+    console: |-
+      Pay: 475.0
+  - title: Testcase 2
+    visible: true
+    stdin:
+      - "30"
+      - "10"
+    stdout: |-
+      Enter Hours: Enter Rate: Pay: 300.0
+    console: |-
+      Pay: 300.0

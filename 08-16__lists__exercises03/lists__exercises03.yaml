@@ -1,0 +1,69 @@
+$schema: https://learning-contents.org/schemas/free-coding/0.1.0
+source: main.py
+license: MIT
+locale: en-US
+id: 08-16__lists__exercises03
+title: "Min and Max using List Functions"
+description: "Store user entered numbers in a list until 'done', then compute max() and min()."
+authors:
+  - first: PY4E
+    last: Exercise
+    email: info@py4e.com
+    affiliation: Python for Everybody
+pedagogy:
+  activity: free-coding
+  difficulty: intermediate
+  prereq_topics: ["lists", "loops"]
+  topics: ["lists", "list-methods", "built-in-functions"]
+runtime:
+  language: python
+  version: 3
+statement: |-
+  Prompt user for numbers until 'done'. Store numbers in a list and use max() and min() functions after the loop.
+executions:
+  - title: Execution 1
+    stdin:
+      - "6"
+      - "2"
+      - "9"
+      - "3"
+      - "5"
+      - "done"
+    stdout: |-
+      Enter a number: Enter a number: Enter a number: Enter a number: Enter a number: Enter a number: Maximum: 9.0
+      Minimum: 2.0
+    console: |-
+      Maximum: 9.0
+      Minimum: 2.0
+    status: pass
+elements:
+  - type: editable
+    location:
+      snippet: |-
+        numbers = []
+        while True:
+            user_input = input("Enter a number: ")
+            if user_input == "done":
+                break
+            numbers.append(float(user_input))
+        
+        print("Maximum:", max(numbers))
+        print("Minimum:", min(numbers))
+    placeholder: |-
+      # Store numbers in list and print max and min
+testcases:
+  - title: Testcase 1
+    visible: true
+    stdin:
+      - "6"
+      - "2"
+      - "9"
+      - "3"
+      - "5"
+      - "done"
+    stdout: |-
+      Enter a number: Enter a number: Enter a number: Enter a number: Enter a number: Enter a number: Maximum: 9.0
+      Minimum: 2.0
+    console: |-
+      Maximum: 9.0
+      Minimum: 2.0
