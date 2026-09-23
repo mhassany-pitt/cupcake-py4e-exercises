@@ -473,7 +473,7 @@ for ex_id, spec in specs.items():
     console: |-
 {indent_multiline(cons, 6)}""")
 
-    yaml_content = f"""$schema: https://learning-contents.org/schemas/free-coding/0.1.0
+    yaml_content = f"""$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
 source: main.py
 license: MIT
 locale: en-US
