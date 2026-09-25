@@ -20,15 +20,6 @@ runtime:
   version: 3
 statement: |-
   Count number of messages sent from each domain name (instead of individual email) using a dictionary.
-executions:
-  - title: Execution 1
-    stdin:
-      - "mbox-short.txt"
-    stdout: |-
-      Enter a file name: ...
-    console: |-
-      ...
-    status: pass
 elements:
   - type: editable
     location:

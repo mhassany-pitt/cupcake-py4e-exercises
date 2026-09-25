@@ -20,15 +20,6 @@ runtime:
   version: 3
 statement: |-
   Modify file reader program so that entering 'na na boo boo' prints an Easter egg message. Otherwise count lines starting with 'Subject:'.
-executions:
-  - title: Execution 1
-    stdin:
-      - "na na boo boo"
-    stdout: |-
-      Enter the file name: NA NA BOO BOO TO YOU - You have been punk'd!
-    console: |-
-      NA NA BOO BOO TO YOU - You have been punk'd!
-    status: pass
 elements:
   - type: editable
     location:

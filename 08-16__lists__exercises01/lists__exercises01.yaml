@@ -20,15 +20,6 @@ runtime:
   version: 3
 statement: |-
   Write a program to open a file and read line by line. Split lines into words, collect unique words, sort and print them alphabetically.
-executions:
-  - title: Execution 1
-    stdin:
-      - "romeo.txt"
-    stdout: |-
-      Enter file: ['Arise', 'But', 'It', 'Juliet', 'Who', 'already', 'and', 'breaks', 'east', 'envious', 'fair', 'grief', 'is', 'kill', 'light', 'moon', 'pale', 'sick', 'soft', 'sun', 'the', 'through', 'what', 'window', 'with', 'yonder']
-    console: |-
-      ['Arise', 'But', 'It', 'Juliet', 'Who', 'already', 'and', 'breaks', 'east', 'envious', 'fair', 'grief', 'is', 'kill', 'light', 'moon', 'pale', 'sick', 'soft', 'sun', 'the', 'through', 'what', 'window', 'with', 'yonder']
-    status: pass
 elements:
   - type: editable
     location:

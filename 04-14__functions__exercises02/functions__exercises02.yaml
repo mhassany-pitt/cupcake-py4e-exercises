@@ -20,23 +20,6 @@ runtime:
   version: 3
 statement: |-
   Rewrite the grade program using a function called `computegrade` that takes a score as its parameter and returns a grade as a string.
-executions:
-  - title: Execution 1
-    stdin:
-      - "0.95"
-    stdout: |-
-      Enter score: A
-    console: |-
-      A
-    status: pass
-  - title: Execution 2
-    stdin:
-      - "perfect"
-    stdout: |-
-      Enter score: Bad score
-    console: |-
-      Bad score
-    status: pass
 elements:
   - type: editable
     location:

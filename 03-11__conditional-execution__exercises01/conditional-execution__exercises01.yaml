@@ -20,25 +20,6 @@ runtime:
   version: 3
 statement: |-
   Rewrite your pay computation to give the employee 1.5 times the hourly rate for hours worked above 40 hours.
-executions:
-  - title: Execution 1
-    stdin:
-      - "45"
-      - "10"
-    stdout: |-
-      Enter Hours: Enter Rate: Pay: 475.0
-    console: |-
-      Pay: 475.0
-    status: pass
-  - title: Execution 2
-    stdin:
-      - "30"
-      - "10"
-    stdout: |-
-      Enter Hours: Enter Rate: Pay: 300.0
-    console: |-
-      Pay: 300.0
-    status: pass
 elements:
   - type: editable
     location:

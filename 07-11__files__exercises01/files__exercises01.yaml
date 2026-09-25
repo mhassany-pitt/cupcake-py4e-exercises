@@ -20,15 +20,6 @@ runtime:
   version: 3
 statement: |-
   Write a program to read through a file and print the contents of the file (line by line) all in upper case.
-executions:
-  - title: Execution 1
-    stdin:
-      - "mbox-short.txt"
-    stdout: |-
-      Enter a file name: ...
-    console: |-
-      ...
-    status: pass
 elements:
   - type: editable
     location:

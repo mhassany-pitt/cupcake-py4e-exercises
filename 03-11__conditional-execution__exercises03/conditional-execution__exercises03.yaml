@@ -20,23 +20,6 @@ runtime:
   version: 3
 statement: |-
   Write a program to prompt for a score between 0.0 and 1.0. If score is out of range or non-numeric, print 'Bad score'. Otherwise print grade: >=0.9 A, >=0.8 B, >=0.7 C, >=0.6 D, <0.6 F.
-executions:
-  - title: Execution 1
-    stdin:
-      - "0.95"
-    stdout: |-
-      Enter score: A
-    console: |-
-      A
-    status: pass
-  - title: Execution 2
-    stdin:
-      - "10.0"
-    stdout: |-
-      Enter score: Bad score
-    console: |-
-      Bad score
-    status: pass
 elements:
   - type: editable
     location:

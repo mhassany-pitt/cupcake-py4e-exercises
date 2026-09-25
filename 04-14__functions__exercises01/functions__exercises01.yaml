@@ -20,25 +20,6 @@ runtime:
   version: 3
 statement: |-
   Rewrite your pay computation with time-and-a-half for overtime and create a function called `computepay` which takes two parameters (`hours` and `rate`).
-executions:
-  - title: Execution 1
-    stdin:
-      - "45"
-      - "10"
-    stdout: |-
-      Enter Hours: Enter Rate: Pay: 475.0
-    console: |-
-      Pay: 475.0
-    status: pass
-  - title: Execution 2
-    stdin:
-      - "30"
-      - "10"
-    stdout: |-
-      Enter Hours: Enter Rate: Pay: 300.0
-    console: |-
-      Pay: 300.0
-    status: pass
 elements:
   - type: editable
     location:

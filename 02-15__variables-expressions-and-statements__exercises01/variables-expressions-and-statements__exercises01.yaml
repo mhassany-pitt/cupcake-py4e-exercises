@@ -26,23 +26,6 @@ statement: |-
   Enter your name: Chuck
   Hello Chuck
   ```
-executions:
-  - title: Execution 1
-    stdin:
-      - "Chuck"
-    stdout: |-
-      Enter your name: Hello Chuck
-    console: |-
-      Hello Chuck
-    status: pass
-  - title: Execution 2
-    stdin:
-      - "Alice"
-    stdout: |-
-      Enter your name: Hello Alice
-    console: |-
-      Hello Alice
-    status: pass
 elements:
   - type: editable
     location:

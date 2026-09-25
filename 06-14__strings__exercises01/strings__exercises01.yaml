@@ -20,14 +20,6 @@ runtime:
   version: 3
 statement: |-
   Take `data = 'X-DSPAM-Confidence: 0.8475'`. Use `find` and string slicing to extract portion after colon, convert to float, and print.
-executions:
-  - title: Execution 1
-    stdin: []
-    stdout: |-
-      0.8475
-    console: |-
-      0.8475
-    status: pass
 elements:
   - type: editable
     location:

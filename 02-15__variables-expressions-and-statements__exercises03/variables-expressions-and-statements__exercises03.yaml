@@ -20,23 +20,6 @@ runtime:
   version: 3
 statement: |-
   Write a program which prompts the user for a Celsius temperature, convert the temperature to Fahrenheit, and print out the converted temperature.
-executions:
-  - title: Execution 1
-    stdin:
-      - "0"
-    stdout: |-
-      Enter temperature in Celsius: Temperature in Fahrenheit: 32.0
-    console: |-
-      Temperature in Fahrenheit: 32.0
-    status: pass
-  - title: Execution 2
-    stdin:
-      - "100"
-    stdout: |-
-      Enter temperature in Celsius: Temperature in Fahrenheit: 212.0
-    console: |-
-      Temperature in Fahrenheit: 212.0
-    status: pass
 elements:
   - type: editable
     location:

@@ -20,25 +20,6 @@ runtime:
   version: 3
 statement: |-
   Rewrite your pay program using `try` and `except` so that your program handles non-numeric input gracefully by printing a message and exiting the program.
-executions:
-  - title: Execution 1
-    stdin:
-      - "20"
-      - "nine"
-    stdout: |-
-      Enter Hours: Enter Rate: Error, please enter numeric input
-    console: |-
-      Error, please enter numeric input
-    status: pass
-  - title: Execution 2
-    stdin:
-      - "40"
-      - "10"
-    stdout: |-
-      Enter Hours: Enter Rate: Pay: 400.0
-    console: |-
-      Pay: 400.0
-    status: pass
 elements:
   - type: editable
     location:

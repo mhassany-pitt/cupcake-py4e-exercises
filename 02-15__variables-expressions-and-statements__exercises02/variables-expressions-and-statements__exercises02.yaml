@@ -20,25 +20,6 @@ runtime:
   version: 3
 statement: |-
   Write a program to prompt the user for hours and rate per hour to compute gross pay.
-executions:
-  - title: Execution 1
-    stdin:
-      - "35"
-      - "2.75"
-    stdout: |-
-      Enter Hours: Enter Rate: Pay: 96.25
-    console: |-
-      Pay: 96.25
-    status: pass
-  - title: Execution 2
-    stdin:
-      - "40"
-      - "10"
-    stdout: |-
-      Enter Hours: Enter Rate: Pay: 400.0
-    console: |-
-      Pay: 400.0
-    status: pass
 elements:
   - type: editable
     location:

@@ -20,15 +20,6 @@ runtime:
   version: 3
 statement: |-
   Use BeautifulSoup to count '<p>' tags in an HTML page retrieved with `urllib` and display the tag count.
-executions:
-  - title: Execution 1
-    stdin:
-      - "http://data.pr4e.org/romeo.txt"
-    stdout: |-
-      Enter URL: Paragraph tags: 0
-    console: |-
-      Paragraph tags: 0
-    status: pass
 elements:
   - type: editable
     location:

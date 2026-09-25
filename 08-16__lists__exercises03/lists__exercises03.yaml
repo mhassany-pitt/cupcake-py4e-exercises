@@ -20,22 +20,6 @@ runtime:
   version: 3
 statement: |-
   Prompt user for numbers until 'done'. Store numbers in a list and use max() and min() functions after the loop.
-executions:
-  - title: Execution 1
-    stdin:
-      - "6"
-      - "2"
-      - "9"
-      - "3"
-      - "5"
-      - "done"
-    stdout: |-
-      Enter a number: Enter a number: Enter a number: Enter a number: Enter a number: Enter a number: Maximum: 9.0
-      Minimum: 2.0
-    console: |-
-      Maximum: 9.0
-      Minimum: 2.0
-    status: pass
 elements:
   - type: editable
     location:

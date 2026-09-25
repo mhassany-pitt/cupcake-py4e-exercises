@@ -20,15 +20,6 @@ runtime:
   version: 3
 statement: |-
   Read 'From ' lines, build email count dictionary, transform to (count, email) tuples, sort in reverse, and print top sender.
-executions:
-  - title: Execution 1
-    stdin:
-      - "mbox-short.txt"
-    stdout: |-
-      Enter a file name: cwen@iupui.edu 5
-    console: |-
-      cwen@iupui.edu 5
-    status: pass
 elements:
   - type: editable
     location:

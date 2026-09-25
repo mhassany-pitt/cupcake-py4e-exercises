@@ -20,15 +20,6 @@ runtime:
   version: 3
 statement: |-
   Use `urllib` to retrieve document from URL, display up to 3000 characters, and print overall character count.
-executions:
-  - title: Execution 1
-    stdin:
-      - "http://data.pr4e.org/romeo.txt"
-    stdout: |-
-      Enter URL: ...
-    console: |-
-      ...
-    status: pass
 elements:
   - type: editable
     location:

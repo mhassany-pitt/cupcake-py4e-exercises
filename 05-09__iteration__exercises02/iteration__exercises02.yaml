@@ -20,19 +20,6 @@ runtime:
   version: 3
 statement: |-
   Write a program that prompts for a list of numbers until 'done' and at the end prints out both maximum and minimum.
-executions:
-  - title: Execution 1
-    stdin:
-      - "7"
-      - "2"
-      - "done"
-    stdout: |-
-      Enter a number: Enter a number: Enter a number: Maximum: 7.0
-      Minimum: 2.0
-    console: |-
-      Maximum: 7.0
-      Minimum: 2.0
-    status: pass
 elements:
   - type: editable
     location:

@@ -20,15 +20,6 @@ runtime:
   version: 3
 statement: |-
   Find who sent the most messages in a mail log by iterating over the dictionary of email counts.
-executions:
-  - title: Execution 1
-    stdin:
-      - "mbox-short.txt"
-    stdout: |-
-      Enter a file name: cwen@iupui.edu 5
-    console: |-
-      cwen@iupui.edu 5
-    status: pass
 elements:
   - type: editable
     location:

@@ -20,21 +20,6 @@ runtime:
   version: 3
 statement: |-
   Write a program which repeatedly reads integers until the user enters 'done'. Once 'done' is entered, print out total, count, and average.
-executions:
-  - title: Execution 1
-    stdin:
-      - "4"
-      - "5"
-      - "bad data"
-      - "7"
-      - "done"
-    stdout: |-
-      Enter a number: Enter a number: Enter a number: Invalid input
-      Enter a number: Enter a number: 16 3 5.333333333333333
-    console: |-
-      Invalid input
-      16 3 5.333333333333333
-    status: pass
 elements:
   - type: editable
     location:

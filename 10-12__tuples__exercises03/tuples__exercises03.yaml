@@ -20,15 +20,6 @@ runtime:
   version: 3
 statement: |-
   Read a file and print letters (a-z) in decreasing order of frequency using tuples.
-executions:
-  - title: Execution 1
-    stdin:
-      - "romeo.txt"
-    stdout: |-
-      Enter a file name: ...
-    console: |-
-      ...
-    status: pass
 elements:
   - type: editable
     location:

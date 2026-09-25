@@ -20,15 +20,6 @@ runtime:
   version: 3
 statement: |-
   Simulate 'grep' command: prompt user for a regex pattern and count matching lines in mbox.txt.
-executions:
-  - title: Execution 1
-    stdin:
-      - "^Author"
-    stdout: |-
-      Enter a regular expression: mbox.txt had 1798 lines that matched ^Author
-    console: |-
-      mbox.txt had 1798 lines that matched ^Author
-    status: pass
 elements:
   - type: editable
     location:

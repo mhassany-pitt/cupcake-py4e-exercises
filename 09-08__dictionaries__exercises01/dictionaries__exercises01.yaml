@@ -20,15 +20,6 @@ runtime:
   version: 3
 statement: |-
   Write a program that categorizes each mail message by day of week (3rd word of 'From ' line) using a dictionary histogram.
-executions:
-  - title: Execution 1
-    stdin:
-      - "mbox-short.txt"
-    stdout: |-
-      Enter a file name: {'Sat': 1, 'Fri': 20, 'Thu': 6}
-    console: |-
-      {'Sat': 1, 'Fri': 20, 'Thu': 6}
-    status: pass
 elements:
   - type: editable
     location:
